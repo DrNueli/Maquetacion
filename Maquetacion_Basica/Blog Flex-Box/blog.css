@@ -1,0 +1,65 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Navigation Bar Styles */
+  .navbar {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 1em;
+    background-color: #333;
+  }
+  
+  .navbar a {
+    color: white;
+    text-decoration: none;
+    padding: 0.5em;
+  }
+  
+  .navbar a:not(:last-child) {
+    margin-right: 1em;
+  }
+
+
+  /* Blog */
+
+  .titulo{
+    display: flex;
+    justify-content: center;
+    margin-top: -20px;
+  }
+
+  .rectangulo{
+    display: flex;
+    height: 60vh;
+    width: 100%;
+    flex-direction:row;
+    justify-content: space-between;
+    align-items: center;
+    /* border: 5px solid green; */
+  }
+
+  .imagen-playa{
+    width: 80%;
+    /* border: 5px solid red; */
+    display: flex;
+    justify-content: end;
+  }
+
+  .texto-blog{
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    margin-right: 3%;
+  /* border: 5px solid yellow; */
+  }
+
+  .texto-blog p {
+    text-align: center;
+    font-size: 12px;
+}
