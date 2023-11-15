@@ -1,0 +1,41 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Navigation Bar Styles */
+  .navbar {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 1em;
+    background-color: #333;
+  }
+  
+  .navbar a {
+    color: white;
+    text-decoration: none;
+    padding: 0.5em;
+  }
+  
+  .navbar a:not(:last-child) {
+    margin-right: 1em;
+  }
+
+/* Galeria */
+.galeria{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+div.contenido-imagen{
+  width: 33%;
+}
+
+.contenido-imagen img{
+    width: 100%;
+    height: 100%;
+}
