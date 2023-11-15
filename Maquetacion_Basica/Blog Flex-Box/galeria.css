@@ -31,6 +31,10 @@
     flex-wrap: wrap;
 }
 
+div.contenido-imagen{
+  width: 33%;
+}
+
 .contenido-imagen img{
     width: 100%;
     height: 100%;
