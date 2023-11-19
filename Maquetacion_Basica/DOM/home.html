@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="menu">
+            <section class="logo">
+                <img src="https://cienciasanitaria.es/wp-content/uploads/2022/09/Nuevo-Logo-CSes-normal.png">
+            </section>
+            <li class="menu-txt">
+                    <a href="./home.html">Home</a>
+                    <a href="./home.html">Precios</a>
+                    <a href="./home.html">Contacto</a>
+            </li>
+        </div>
+
+    </header>
+
+    <section>
+        <div class="cabecera">
+                <div id="cabecera">
+                    <h1>Vive Colombia</h1>
+                    <h3>Te ayudamos a organizar tu viaje por Colombia</h3>
+                </div>
+        </div>
+
+        <div class="viajes">
+                <div>
+                    <img class="foto" 
+                    src="https://lonelyplanetes.cdnstatics2.com/sites/default/files/styles/max_1300x1300/public/fotos/Colombia_CartagenadeIndias_shutterstock_170733722_Jess%20Kraft_Shutterstock.jpg?itok=-raqxsNk">
+                    <h1>Cartagena de Indias</h1>
+                    <h4>1000€</h4>
+                </div>
+                <div>
+                    <img src="https://media.iatiseguros.com/wp-content/uploads/2019/10/04012100/que-hacer-colombia-1.jpg">
+                    <h1>Playas del Tayrona</h1>
+                    <h4>700€</h4>
+                </div> 
+                <div>
+                    <img class="foto" 
+                    src="https://plusultra.com/wp-content/uploads/2022/02/cual-es-la-mejor-epoca-viajar-colombia.jpg"
+                >
+                    <h1>Eje Cafetero</h1>
+                    <h4>500€</h4>
+                </div> 
+                <div>
+                    <img class="foto" 
+                    src="https://historia.nationalgeographic.com.es/medio/2023/09/14/istock-1461314700_58141006_230914100817_1280x853.jpg">
+                    <h1>Amazonas</h1>
+                    <h4>350€</h4>
+                </div>
+        </div>
+
+        <div class="form-contacto">
+            <div class="form">
+                <h1>Formulario de Contacto</h1>
+                <input type="text" id="nombre" placeholder="nombre*">
+                <input type="text" placeholder="origen*">
+                <input type="text" placeholder="destino*">
+                <input type="number" placeholder="número de personas*">
+                <input type="datetime" placeholder="fecha">
+                <button type="button" id="SolicitarInfo">Solicitar información</button>
+                <button type="button" id="hacerFiltrado">Hacer filtrado</button>
+            </div>
+        </div>
+
+        <div id="resultadosFiltrados"></div>
+
+    </section>     
+    
+    <script src="viajes.js"></script>
+    <script src="viajes2.js"></script>
+
+</body>
+</html>
