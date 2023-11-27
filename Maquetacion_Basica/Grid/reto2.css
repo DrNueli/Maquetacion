@@ -1,0 +1,30 @@
+
+.grid{
+    
+    display: grid;
+    grid-template-columns: 2fr 1fr 2fr 2fr 1fr 2fr; 
+    grid-template-rows: 600px 200px;
+    }
+    .a{background-color: greenyellow;
+    }
+    .b{background-color: black;
+        color: white;
+    }
+    .c{background-color: greenyellow
+
+    }
+    .d{background-color: black;
+        color: white;
+
+    }
+    .e{background-color: greenyellow;
+    }
+    .f{background-color: black;
+        color: white;
+    }
+
+    .a, .b, .c, .d, .e, .f {
+        display: flex;
+        justify-content: center;
+        text-align: center;
+      }

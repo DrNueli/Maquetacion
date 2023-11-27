@@ -1,0 +1,88 @@
+.grid{
+    display: grid;
+    grid-template-areas: "Header Header Imagen"
+                         "Menu1 Content Content"
+                         "Footer Footer Footer";
+}
+
+.a1{
+    grid-area: Header;
+    background-color: rgb(255, 0, 0);
+    color: white;
+    display: flex;
+    justify-content: center;
+    height: 20vh;
+        /* Como puedo bajar solo el margen de la letra un poco? */
+}
+
+.a2{
+    grid-area: Imagen;
+    background-color: rgb(77, 6, 6);
+    color: white;
+    display: flex;
+    justify-content: center;
+    /* Como puedo bajar solo el margen de la letra un poco? */
+}
+
+.b1{
+    grid-area: Menu1;
+    background-color: orange;
+    height: 60vh;
+    display: grid;
+    grid-template-areas: "Aside"
+                         "Aside1"
+                         "Aside2";
+}
+
+.b11{
+    grid-area: Aside;
+    background-color: rgb(255, 255, 255);
+    color: orange;
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+}
+
+.b12{
+    grid-area: Aside2;
+    background-color: rgb(255, 255, 255);
+    color: orange;
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+}
+
+.c{
+    grid-area: Content;
+    background-color: rgba(204, 52, 28, 0.814);
+    display: grid;
+    grid-template-areas: "Content1" 
+                         "Content2";
+}
+
+.c1{
+    grid-area: Content1;
+    border: 2px solid white;
+    color: white;
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+}
+
+.c2{
+    grid-area: Content2;
+    border: 2px solid white;
+    color: white;
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+}
+
+.d{
+    grid-area: Footer;
+    background-color: rgb(88, 9, 6);
+    color: white;
+    height: 20vh;
+    display: flex;
+    justify-content: center;
+}

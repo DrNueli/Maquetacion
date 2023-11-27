@@ -1,0 +1,131 @@
+.grid{
+    display: grid;
+    grid-template-columns: [x0] 1fr [x1] 1fr [x2] 1fr [x3] 1fr [x4];
+    grid-template-rows: [y0] 1fr [y1] 4fr [y2] 1fr [y3];
+}
+
+.a{
+    grid-column: x0 / x4;
+    grid-row: y0 / y1;
+    background-color: black;
+    color: white;
+    font-size: 2em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.b{
+    grid-column: x0 / x3;
+    grid-row: y1 / y2;
+    background-color: #00f;
+    height: 100%;
+    display: grid;
+    grid-template-columns: [x0] 1fr [x1] 1fr [x2] 1fr [x3];
+    grid-template-rows: [y0] 1fr [y1] 1fr [y2] 1fr [y3];    
+}
+
+.b1{
+    grid-column: x0 / x3;
+    grid-row: y0 / y1;
+    height: 100px;
+    width: 97%;
+    margin: 15px;
+    border: 1px solid white;
+    color: white;
+    font-size: 2em;
+}
+
+.b-mix{
+    grid-column: x0 / x3;
+    grid-row: y1 / y3;
+    /* border: 1px solid white; */
+    margin-left: 15px;
+    margin-right: 15px;
+    display: grid;
+    grid-template-columns: [v0] 2fr [v1] 1fr [v2];
+}
+.b2{
+    grid-column: v0 / v1;
+    height: 90%;
+    border: 1px solid white;
+    color: white;
+    margin-right: 7px;
+}
+
+.b3{
+    grid-column: v1 / v2;
+    height: 90%;
+    border: 1px solid white;
+    color: white;
+}
+
+.c{
+    grid-column: x3 / x4;
+    grid-row: y1 / y2;
+    background-color: rgb(47, 255, 71);
+    grid-template-rows: [m0] 1fr [m1] 1fr [m2] 1fr [m3] 1fr [m4];
+}
+
+.menu-titulo{
+    grid-row: m0 / m1;
+    height: 100px;
+    border: 1px solid black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 2%;
+}
+
+.menu1{
+    grid-row: m1 / m2;
+    height: 100px;
+    border: 1px solid black;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 2%;
+}
+
+.menu2{
+    grid-row: m2 / m3;
+    height: 100px;
+    border: 1px solid black;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 2%;
+}
+
+.menu3{
+    grid-row: m3 / m4;
+    height: 100px;
+    border: 1px solid black;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 2%;
+}
+
+.d{
+    grid-column: x0 / x4;
+    grid-row: y2 / y3;
+    background-color: #510296;
+    height: 100px;
+    display: grid;
+    grid-template-columns: [f0] 1fr [f1] 1fr [f2];
+}
+
+.d1{
+    grid-column: ;
+    grid-column: f0 / f1;
+    border: 1px solid white;
+    height: 100%;
+}
