@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    
+    <script src="jquery_.js"></script>
+    <!-- <script src="jqueryR.js"></script> -->
+
+    <link rel="stylesheet" href="jquery.css">
+    <title>Document</title>
+</head>
+
+<body>
+  
+    <div class=" container mt-5">
+        <div class="row">
+            <div class="col-4">
+                <button id="mostrarJs" class="btn btn-warning" onclick="mostrar()">MostrarJs</button>
+                <button id="ocultarJs" class="btn btn-dark" onclick="ocultar()">OcultarJs</button>
+
+                <h3 id="parrafo" class="mt-2" style="display: none;">Holi!! Buenos dias!</h3>
+            </div>
+
+            <div  class="col-4">
+                <button id="mostrar" class="btn btn-success">Mostrar</button>
+                <button id="ocultar" class="btn btn-primary" >Ocultar</button>
+
+                <h3 id="parrafo2" class="mt-2" style="display: none;">Holi!! Buenos dias!</h3>
+            </div>
+
+            <div class="col-4">
+                <button id="boton" class="btn btn-danger">pepe</button>
+                <!-- <button id="ocultarappend" class="btn btn-primary" >Ocultar</button> -->
+                <h3 id="parrafo3" class="mt-2"></h3>
+                <p id="print"></p>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="container mt-5">
+
+        <div class="row">
+            <div class="col-3">
+                <form>
+                    <div class="form-group">
+                      <label for="exampleInputPassword1">Imagen</label>
+                      <input type="text" class="form-control" id="exampleInput1" placeholder="Introduce url">
+                    </div>
+                    <button type="button" class="btn btn-primary" onclick="formulario()">Submit</button>
+                </form>
+            </div>
+            <div class="col-3">
+                <img id="imagen" src="" alt="Imagen" style="width: 200px; height: 120px; display: none;">
+            </div>
+
+
+            <div class="col-3">
+                <form>
+                    <div class="form-group">
+                      <label for="exampleInputPassword1">Imagen 2</label>
+
+                      <input type="text" class="form-control" id="exampleInput2" placeholder="Introduce url">
+                    </div>
+                    
+                    <button type="button" class="btn btn-warning" onclick="formJS()">Submit JS</button>
+                </form>
+            </div>
+            <div class="col-3">
+                <img id="imagen2" src="" alt="Imagen2" style="width: 200px; height: 120px; display: none;">
+            </div>
+
+        </div>
+      
+
+    </div>
+
+

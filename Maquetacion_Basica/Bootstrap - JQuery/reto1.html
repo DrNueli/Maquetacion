@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bootstrap Layout</title>
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <style>
+    .height-half {
+      min-height: 100px; /* Ajusta este valor según sea necesario */
+    }
+    .height-full {
+      min-height: 210px; /* Ajusta este valor para que sea el doble de .height-half más el espaciado */
+     }
+  </style>
+</head>
+<body>
+  <div class="container-fluid" style="color: white;">
+    <div class="row">
+      <div class="col-6 bg-primary" style="color: white;">primary</div>
+      <div class="col-6 bg-warning height-full">warning</div>
+    </div>
+    <div class="row">
+      <div class="col-2 bg-primary height-full">primary</div>
+      <div class="col-6 bg-danger height-full">danger</div>
+      <div class="col-4 bg-warning height-full">warning</div>
+    </div>
+    <div class="row">
+      <div class="col-4 bg-success height-full">danger</div>
+      <div class="col-6 bg-primary">primary</div>
+      <div class="col-2 bg-warning">warning</div>
+    </div>
+  </div>
+
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
