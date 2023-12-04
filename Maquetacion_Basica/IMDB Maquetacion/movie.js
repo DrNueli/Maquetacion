@@ -70,15 +70,19 @@
         pelis.forEach(function (elemento) {
         let actorsList = elemento.actors.join(", ");
         container.innerHTML += 
-            '<div class="card" style="width: 18rem;">' +
-            '<p>Title: ' + elemento.title + '</p>' +
-            '<p>Release Year: ' + elemento.releaseYear + '</p>' +
-            '<p>Nationality: ' + elemento.nationality + '</p>' +
-            '<p>Genre: ' + elemento.genre + '</p>' +
-            '<p>Actors: ' + actorsList + '</p>' +
-            '<p>Writer: ' + elemento.writer + '</p>' +
-            '<p>Director: ' + elemento.director + '</p>' +
-            '<img src="' + elemento.photo   + '">'   +
-            '</div>';
+        '<div class="col-4">' +
+        '<div class="card">' +
+            '<img src="' + elemento.photo + '" class="card-img-top" alt="Movie Photo" style="max-width:100%;">' + 
+            '<div class="card-body">' + 
+                '<h2 class="card-title">' + elemento.title + '</h2>' +
+                '<p class="card-text">Año de Rodaje: ' + elemento.releaseYear + '</p>' +
+                '<p class="card-text" style="font-weight:bold">Nationality: ' + elemento.nationality + '</p>' +
+                '<p class="card-text">Genero: ' + elemento.genre + '</p>' +
+                '<p class="card-text" style="font-weight:bold">Director: ' + elemento.director + '</p>' +
+                '<p class="card-text" style="font-weight:bold">Actores: ' + actorsList + '</p>' +
+                '<p class="card-text">Escritor: ' + elemento.writer + '</p>' +
+            '</div>' +
+        '</div>' +
+    '</div>';
         });
     }

@@ -14,7 +14,7 @@ document.getElementById("toggleButton").addEventListener("click", function() {
 document.getElementById("botonProfesionales").addEventListener("click", function() {
     let content = document.getElementById("seccionProfesionales");
     if (content.style.display === "none") {
-        content.style.display = "block";
+        content.style.display = "flex"; // block, siempre lo pone en bloque uno encima de otro, se puede cambiar a flex, se podria poner grid incluso
         this.innerText = "OCULTAR TODAS LOS ACTORES";
     } else {
         content.style.display = "none";
