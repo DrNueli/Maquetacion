@@ -1,0 +1,18 @@
+.myClass {
+    background-color: red; display: flex; align-items: center; justify-content: center; min-width: 100px; max-width: 100px; min-height: 100px;
+    }
+    .myClass1 {
+        position: static;
+        top: 200px; /* Not work! */
+    }
+    .myClass2 {
+        position: relative;
+        left: 300px;
+    }
+    .myClass3 {
+        position: absolute;
+    bottom: 0; }
+    .myClass4 {
+        position: fixed;
+    top: 0;
+    right: 0; }

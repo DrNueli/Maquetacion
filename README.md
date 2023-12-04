@@ -1,2 +1,0 @@
-# Maquetacion
-cambios
